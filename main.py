@@ -9,7 +9,6 @@ print('Start pooling...')
 
 dialog = Dialog(bot, {
     'voc': 'voc.yaml',
-    'session': 'sessions.json',
 })
 
 dialog.start()
