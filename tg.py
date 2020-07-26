@@ -21,3 +21,6 @@ def echo_all(message):
 
 print('Start pooling...')
 bot.polling()
+
+# https://api.telegram.org/bot723314573:AAH5-onyzwyA1fMDnk73GLBQ7sE2a2j_qD4/getUpdates
+# https://api.telegram.org/bot723314573:AAH5-onyzwyA1fMDnk73GLBQ7sE2a2j_qD4/sendMessage?chat_id=53935227&text=test_message

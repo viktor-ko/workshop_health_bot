@@ -297,7 +297,7 @@ class Dialog(object):
         phrase = self._get_node_phrase(node_name, the_key='wrong')
 
         if phrase is None:
-            phrase = self._voc.get['wrong']
+            phrase = self._voc.get('wrong', None)
             # raise IndexError('No wrong phrase in node {}'.format(node_name))
 
         self._bot.send_message(message.chat.id, phrase)
